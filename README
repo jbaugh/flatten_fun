@@ -1,0 +1,17 @@
+Simple flatten examples written in Ruby and Erlang
+
+Ruby
+------
+To use:
+  Flatten.new(array).perform
+To test:
+  $ ruby flatten_test.rb
+
+Erlang
+------
+To use:
+  flatten:flatten(Array).
+To test:
+  $  erl
+  >  c(flatten)
+  >  eunit:test(flatten).
